@@ -15,7 +15,7 @@ $err = "";
 // if request method is post
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
   if (empty(trim($_POST['username'])) || empty(trim($_POST['password']))) {
-    $err = "Please enter username + password";
+    $err = "Please enter Username + Password";
   } else {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
